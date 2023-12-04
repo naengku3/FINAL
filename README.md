@@ -56,10 +56,16 @@ int main(int argc, char *argv[]) {
 2. 
 
 cd \anu
+
 notepad mycp.c
+
 cd C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\
+
 vcvars64
+
 cd \anu
+
 cl mycp.c
+
 mycp f1.txt f2.txt
 
